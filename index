@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Camino al Vuelo</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+ 
+        header {
+            background-color: #87CEEB;
+            color: white;
+            padding: 1rem;
+        }
+ 
+        h1 {
+            margin: 0;
+        }
+ 
+        section {
+            padding: 2rem;
+        }
+ 
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+ 
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
+        }
+</style>
+</head>
+<body>
+<header>
+<h1>Tu Camino al Vuelo</h1>
+</header>
+ 
+    <section>
+<h2>Bienvenidos a la página de introducción a los próximos pilotos </h2>
+<p>En esta página exploraremos:
+ La historia de la aviavión;
+ Los conceptos básicos de tipos de aviones(Más Icónicos);
+La formación de pilotos;
+Como la tecnologia ha revolucionada la aviación moderna y por último el área de la simulacíon.</p>
+<p>¡COMENCEMOS!</p>
+</section>
+ <iframe src="https://drive.google.com/file/d/1zTivSflNDEh0Zrdc9ct03cm0HcFSb83F/preview" width="500" height="250" allow="autoplay"></iframe>
+  <iframe src="https://drive.google.com/file/d/1SZG03vaQWJKkUvKoHj59CEGv17y4Du-M/preview" width="500" height="250" allow="autoplay"></iframe>
+  
+    <footer>
+<p>&copy; 2025 TU CAMINO AL VUELO - SOFÍA TAMAYO </p>
+</footer>
+</body>
+</html>
