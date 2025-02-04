@@ -45,9 +45,52 @@
         a:hover {
             text-decoration: underline;
         }
+  
+  /* Estilos del menú */
+        nav {
+            background-color: #333; /* Color de fondo */
+            padding: 10px;
+        }
+ 
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Alinea los elementos en fila */
+        }
+ 
+        li {
+            margin: 0 15px;
+        }
+ 
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: block;
+        }
+ 
+        a:hover {
+            background-color: #555; /* Cambio de color al pasar el cursor */
+            border-radius: 5px;
+        }
+  
 </style>
 </head>
 <body>
+  
+      <!-- Menú de navegación -->
+<nav>
+<ul>
+<li><a href="index.html">Historia</a></li>
+  <li><a href="index.html">Aviones</a></li>
+<li><a href="nosotros.html">Formación</a></li>
+<li><a href="servicios.html">Tecnologia</a></li>
+<li><a href="contacto.html">Simulación</a></li>
+</ul>
+</nav>
+  
 <header>
 <h1>Tu Camino al Vuelo</h1>
 </header>
@@ -63,7 +106,7 @@ Como la tecnologia ha revolucionada la aviación moderna y por último el área 
 </section>
  <iframe src="https://drive.google.com/file/d/1zTivSflNDEh0Zrdc9ct03cm0HcFSb83F/preview" width="500" height="250" allow="autoplay"></iframe>
   <iframe src="https://drive.google.com/file/d/1SZG03vaQWJKkUvKoHj59CEGv17y4Du-M/preview" width="500" height="250" allow="autoplay"></iframe>
-  
+  <iframe width="500" height="305" src="https://www.youtube.com/embed/oBcHF-6BjO8?si=8WE-A85sCUU9CiUd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     <footer>
 <p>&copy; 2025 TU CAMINO AL VUELO - SOFÍA TAMAYO </p>
 </footer>
