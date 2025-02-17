@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tu Camino al Vuelo</title>
+<style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+            text-align: center;
+        }
+ 
+        header {
+            background-color: #87CEEB;
+            color: white;
+            padding: 1rem;
+        }
+ 
+        h1 {
+            margin: 0;
+        }
+ 
+        section {
+            padding: 2rem;
+        }
+ 
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+ 
+        a {
+            color: #007bff;
+            text-decoration: none;
+        }
+ 
+        a:hover {
+            text-decoration: underline;
+        }
+  
+  /* Estilos del menú */
+        nav {
+            background-color: #333; /* Color de fondo */
+            padding: 10px;
+        }
+ 
+        ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex; /* Alinea los elementos en fila */
+        }
+ 
+        li {
+            margin: 0 15px;
+        }
+ 
+        a {
+            text-decoration: none;
+            color: white;
+            font-size: 18px;
+            padding: 10px 15px;
+            display: block;
+        }
+ 
+        a:hover {
+            background-color: #555; /* Cambio de color al pasar el cursor */
+            border-radius: 5px;
+        }
+  form {
+            background: white;
+            padding: 20px;
+            max-width: 400px;
+            margin: auto;
+            border-radius: 10px;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+</style>
+</head>
+<body>
+  
+      <!-- Menú de navegación -->
+<nav>
+<ul>
+<li><a href="histori.html">Historia</a></li>
+  <li><a href="aviones.html">Aviones</a></li>
+<li><a href="formacion.html">Formación</a></li>
+<li><a href="servicios.html">Tecnologia</a></li>
+<li><a href="simulacion.html">Simulación</a></li>
+</ul>
+</nav>
+  
+<header>
+<h1>Tu Camino al Vuelo</h1>
+</header>
+ 
+    <section>
+<h2>ESCRIBENOS SI TIENES ALGUNA DUDA</h2>
+
+</section>
+<h2>Formulario de Contacto</h2>
+ 
+    <form action="procesar.php" method="POST">
+<label for="nombre">Nombre:</label>
+<input type="text" id="nombre" name="nombre" required>
+ 
+        <label for="email">Correo Electrónico:</label>
+<input type="email" id="email" name="email" required>
+ 
+        <label for="mensaje">Mensaje:</label>
+<textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+ 
+        <button type="submit">Enviar</button>
+</form>
+    <footer>
+<p>&copy; 2025 TU CAMINO AL VUELO - SOFÍA TAMAYO </p>
+</footer>
+</body>
+</html>
